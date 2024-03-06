@@ -1,0 +1,391 @@
+/* styles.scss */
+.header {
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem 0;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo {
+    max-width: 4em;
+}
+
+.navbar-toggler-icon {
+    border: none;
+    background-color: #333;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #7f9c6a;
+}
+
+.header-content {
+    margin: 4em auto;
+    max-width: 1200px;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.header-buttons .btn-primary {
+    background-color: #7f9c6a; // Warm primary color
+    border-color: #7f9c6a;
+}
+
+.header-buttons .btn-outline-primary {
+    color: #7f9c6a;
+    border-color: #7f9c6a;
+    transition: all .5s ease-in-out;
+
+    &:hover,
+    &:focus {
+        color: #fff; // Change text color on hover/focus
+        background-color: #7f9c6a; // Change background color on hover/focus
+        border-color: #7f9c6a; // Change border color on hover/focus
+    }
+}
+
+.header-buttons .btn {
+    margin-right: 1rem;
+}
+
+.header-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* Aesthetic shape */
+}
+
+/* styles.scss */
+.about-section {
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+.mission-section {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.section-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.about-image,
+.mission-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* Aesthetic shape */
+}
+
+
+/* why-us.component.scss */
+.why-us-section {
+    padding: 4rem 0;
+    background-color: #fff;
+    /* Adjust the background color as needed */
+}
+
+.section-title-whyus {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.section-text-whyus {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section-list li {
+    margin-bottom: 1rem;
+}
+
+.section-list i {
+    color: #e34f26;
+    /* Adjust icon color as needed */
+    margin-right: 0.5rem;
+}
+
+.whyus-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* Aesthetic shape */
+}
+
+
+/* technology.component.scss */
+.technology-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+    /* Adjust the background color as needed */
+}
+
+.section-title-t {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.section-text-t {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section-list li {
+    margin-bottom: 1rem;
+}
+
+.section-list i {
+    color: #e34f26;
+    /* Adjust icon color as needed */
+    margin-right: 0.5rem;
+}
+
+.technology-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* Aesthetic shape */
+}
+
+
+
+/* styles.scss */
+.products-section {
+    padding: 4rem 0 1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.order-section {
+    padding: 1rem 0 4rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-card {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1rem;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #666;
+}
+
+.order-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #e34f26;
+    border-color: #e34f26;
+}
+
+.btn-primary:hover {
+    background-color: #d1431a;
+    border-color: #d1431a;
+}
+
+
+/* styles.scss */
+.contact-section {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+.section-title2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* styles.scss */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #333;
+    margin-right: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+
+.contact-map {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    /* Aesthetic shape */
+}
+
+
+/* styles.scss */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+}
+
+
+
+/* Your color palette */
+$primary-color: #e34f26; // Warm primary color
+$secondary-color: #ffb55e; // Warm secondary color
+$accent-color: #7f9c6a; // Earthy accent color
+$text-color: #333; // Dark text color
+
+
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #f8f9fa;
+        border-top: 1px solid #ddd;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #333;
+    }
+
+    .navbar-nav .nav-link {
+        color: #333;
+        margin: 1rem 0;
+    }
+
+    .header-image {
+        margin-top: 4em;
+    }
+
+    .about-image {
+        margin-bottom: 4em;
+    }
+
+    .header-buttons {
+        text-align: center;
+    }
+
+    .header-buttons .btn {
+        margin: 1rem auto
+    }
+}

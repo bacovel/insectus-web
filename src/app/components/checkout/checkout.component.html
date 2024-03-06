@@ -1,0 +1,65 @@
+<!-- checkout.component.html -->
+<section class="checkout-section">
+    <div class="container" [formGroup]="form">
+        <h2 class="section-title">Checkout</h2>
+
+        <form class="checkout-form" action="javascript:void(0)" (submit)="send()">
+            <!-- Product Selection -->
+            <div class="form-group">
+                <label for="productChoice">Select Product:</label>
+                <select id="productChoice" class="form-control" formControlName="product" required>
+                    <option value="Animal Feed">Animal Feed</option>
+                    <option value="Pet Food">Pet Food</option>
+                    <option value="Insect Oil">Insect Oil</option>
+                </select>
+            </div>
+
+            <!-- Quantity Input -->
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" class="form-control" formControlName="quantity" min="1" value="1"
+                    required>
+            </div>
+
+            <!-- Billing Information -->
+            <h3 class="section-subtitle">Billing Information</h3>
+            <div class="form-group">
+                <label for="companyName">Company Name:</label>
+                <input placeholder="Insectus" type="text" id="companyName" class="form-control"
+                    formControlName="company_name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input placeholder="team@insectus.com" type="email" id="email" class="form-control"
+                    formControlName="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number:</label>
+                <input placeholder="+40712 123 123" type="tel" id="phoneNumber" class="form-control"
+                    formControlName="phone_number" required>
+            </div>
+
+            <!-- Address and Additional Information -->
+            <div class="form-group">
+                <label for="country">Country</label>
+                <input placeholder="Romania" type="text" id="country" class="form-control" formControlName="country"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input placeholder="Bd. Geniului nr. 12 , Bucharest" type="text" id="address" class="form-control"
+                    formControlName="address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Postal Code:</label>
+                <input placeholder="060116" type="text" id="postalcode" class="form-control"
+                    formControlName="postal_code" required>
+            </div>
+            <!-- Other billing details as needed -->
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
